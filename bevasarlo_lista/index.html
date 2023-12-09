@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bevásárló Lista</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+</head>
+</head>
+<body>
+    <div class="container">
+        <h2>Bejelentkezés</h2>
+        <form id="loginForm" action="php_files/login.php" method="post">
+            <label for="username">Felhasználónév:</label>
+            <input type="text" id="felhasznalonev" name="felhasznalonev" required>
+
+            <label for="password">Jelszó:</label>
+            <input type="password" id="jelszo" name="jelszo" required>
+
+            <button type="submit">Bejelentkezés</button>
+        </form>
+        <p>Nincs még fiókod? <a href="php_files/register.php">Regisztráció</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+/* style.css */
+
+body {
+    background-color: #F4F3EE;
+    color: #463F3A;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1, h2, h3, p {
+    color: #8A817C;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #F4F3EE;
+    color: #463F3A;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #8A817C;
+    border-bottom: 2px solid #8A817C;
+    padding-bottom: 5px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #BCB8B1;
+    color: #F4F3EE;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8A817C;
+}
+
+a {
+    color: #BCB8B1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #8A817C;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.pressed {
+    background-color: #811313; /* Szürke háttér a lenyomott gombnak */
+}
